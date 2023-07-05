@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "paths": [
+      "servicePackageLink"
+    ],
+    "parameters": {
+      "appServiceName": {
+        "value": "cosmos-db-portal-backend-mpac-westus2"
+      },
+      "appServicePlanLocation": {
+        "value": "westus2"
+      },
+      "appServicePlanName": {
+        "value": "cosmos-db-portal-backend-mpac-westus2"
+      },
+      "appServicePlanSKUName": {
+        "value": "F1"
+      },
+      "servicePackageLink": {
+        "value": "Portal\\Backend\\Backend.zip"
+      }
+    }
+}
